@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>My Portfolio </title>
+    <!------Link section------------------>
+    <link rel="stylesheet" href="css/style(index).css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+   <section id="nav-bar">
+   	<!-----------------------nav-bar section---------------->
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+           <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">HOME</a>
+                    </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#about">CV</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#blog">BLOG</a>
+                   </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact">CONTACT</a>    
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#references">REFERENCES</a>
+                  </li>
+        
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+
+<!---------------banner section------------->
+<section id="banner">
+	<div class="container">
+		<div class="row ">
+			<div class="col-md-6">
+			    <p class="promo-title">Hello!<br>It's me Srijana Tamang.</p>
+			    <p class="promo-subtitle">Dreamer.Chaser.Believer.Achiever</p>
+			</div>
+
+			<div class="col-md-6 text-center">
+				<img src="images/hello.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!------------about Section-------->
+<section id="about">
+	<div class="container">
+		<h1 class="title text-center">About Me</h1>
+		<div class="row">
+			<div class="col-md-6 about">
+				<p>
+					Hello there, I'm Srijana Tamang currrently studying BSc(Hons) Computing at Islington College. I'm a happy, friendly and co-operative person who believes in making this world a better place.
+
+					<br>
+					<br>
+
+				    <a href="cv.html" target="_blank">
+					     <button class="btn btn-primary"> View My CV</button>
+				    </a>
+				    <a href="mycv1.pdf" target="_blank">
+					      <button class="btn btn-primary">Download CV</button>
+				    </a>
+				</p>
+            </div>
+            <div class="col-md-6">
+				<img src="images/me.jpg "class="img-fluid">
+			</div>
+		</div>
+	</div>
+		
+</section>
+
+<!-------------Blog Section--------->
+<section id="blog">
+	<div class="container">
+		<h1 class="title text-center">Blogs</h1>
+		<div class="row">
+			<div class="col-md-6 blog">
+				<p class="blog-title">My Blog</p>
+				<ul>
+					<li><a href="blog1.html" target="_blank"> How technology has affected in our lives?</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<img src="images/blog.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!---------- contact section---->
+<section id="contact">
+	<div class="container">
+		<h1 class="title text-center">Contact</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28246.319379532997!2d85.26720984817686!3d27.754624925761284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1f4ead034a81%3A0x4d562d17efc5fdba!2sGoldhunga%2C%20Tarakeshwar%2044600!5e0!3m2!1sen!2snp!4v1579155742081!5m2!1sen!2snp" width="90%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+			<div class="col-md-6 contact">
+				<h3> Please fill the form </h3>
+
+			        <form name="messageForm" onsubmit="validateForm()">
+			        	<div class="form-group">
+					        <label> Full Name</label>
+					        <input type="text" name="fullname" class="form-control" required>
+				        </div>
+				        <div class="form-group">
+					        <label> E-mail</label>
+					        <input type="email" name="e-mail" class="form-control" required>
+				        </div>
+				        <div class="form-group">
+				        	<label> Phone Number</label>
+					        <input type="number" name="phonumber" class="form-control" required>
+				        </div>
+				        <div class="form-group">
+				        	<label> Gender</label>
+					        <input type="radio" name="gender" value="male" class="" checked> Male
+					        <input type="radio" name="gender" value="female" class=""> Female
+				        </div>
+				        <div class="form-group">
+					        <label> Message</label>
+					        <textarea name="message" class="form-control" cols="30"></textarea>
+					    </div>
+					    <button type="submit" class="btn btn-primary" name="send"> Submit </button>
+					</form>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<!--------------social media section-------------->
+
+<section id="social-media">
+	<div class="container text-center">
+		<div class="social-icons">
+			<a href="https://www.facebook.com/shrijanalama.lopchan"><img src="images/facebook.png"></a>
+			<a href="https://twitter.com/Srijana06101988"><img src="images/twitter.png"></a>
+			<a href="https://www.instagram.com/srijana_lopchann/"><img src="images/instagram.png"></a>
+		</div>	
+	</div>
+</section>
+
+
+
+<!--------------References section-------------->
+<section id="references">
+	<div class="container">
+		<h1 class="title text-center">References</h1>
+
+		<h3>1.Form Style</h3>
+		<div class="row">
+			  <div class="column">
+			    <img src="images/Screenshot1 (form).png" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="images/Screenshot 2(form).png" style="width:100%">
+			  </div>
+			</div>
+			  <p>I have referred to <a href="https://getbootstrap.com/docs/4.4/components/forms/" target="_blank">bootstrap form</a> to implement one on my own website. The difference can be clearly seen as there is only two fields on bootstrap site and various fields on mine. </p>
+		
+		<h3>2.Navbar </h3>
+		<div class="row">
+			  <div class="column">
+			    <img src="images/Screenshot1(navbar).png" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="images/Screenshot 2(navbar).png" style="width:100%">
+			  </div>
+		</div>
+			  <p>I have referred to <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black" target="_blank">w3school</a> to implement on my own website. The difference can be clearly seen as there is different styling and margins and different on mine. </p>
+
+	    <h3>3.Linear Gradient </h3>
+		<div class="row">
+			  <div class="column">
+			    <img src="images/Screenshot1(linear).png" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="images/Screenshot2(linear).png" style="width:100%">
+			  </div>
+		</div>
+			  <p>I have referred to <a href="https://w3school.com/cssref/tryit.asp?filename=trycss3_gradient-linear" target="_blank">w3school</a> to implement linear gradient on my website. The difference can be clearly seen as there different colors than on mine. </p>
+
+        <h3>4.Map </h3>
+		<div class="row">
+			  <div class="column">
+			    <img src="images/Screenshot1(map).png" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="images/Screenshot2(map).png" style="width:100%">
+			  </div>
+		</div>
+			  <p>I have referred to <a href="https://maps.google.com/maps?ll=27.761661,85.281008&z=14&t=m&hl=en&gl=NP&mapclient=embed&q=Goldhunga%20Tarakeshwar%2044600" target="_blank">Google Maps</a> to use map of my location on my website. The difference is that I have used iframe tag. </p>
+
+		<h3>5.Buttons </h3>
+		<div class="row">
+			  <div class="column">
+			    <img src="images/Screenshot1(buttons).png" style="width:100%">
+			  </div>
+			  <div class="column">
+			    <img src="images/Screenshot2(buttons).png" style="width:100%">
+			  </div>
+		</div>
+			  <p>I have referred to <a href="https://getbootstrap.com/docs/4.4/components/buttons/" target="_blank">Bootstrap</a> to use buttons on my website. The difference is the action and color of the buttons. </p> 
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<!--------------footer section-------------->
+<section id="footer">
+	<div class="container">
+	    <p class="footer"> &copy; 2020 Srijana Tamang </p>
+    </div>
+</section>
+
+
+<!-------smooth scrolls------>
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll=new SmoothScroll('a[href*="#"]');
+
+</script>
+
+ </body>
+</html>
